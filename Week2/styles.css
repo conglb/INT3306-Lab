@@ -2,3 +2,12 @@ form label {
     width: 100px;
     float: left;
 }
+
+form input {
+    background-color:#99ffff;
+
+}
+
+span {
+    background-color: red;
+}
