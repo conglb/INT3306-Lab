@@ -5,59 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <form action="" style="align-items: center;">
-        <label for="fullname">Họ và tên</label>
+    <form action="">
+        <label for="fullname">Họ và tên:</label>
         <input name="fullname" type="text">
         <span></span>
         <br></br>
-        <label for="address">Địa chỉ</label>
+        <label for="address">Địa chỉ:</label>
         <input name="address" type="text">
         <span></span>
         <br></br>
-        <label for="gender">Giới tính</label>
-        <input name="gender" type="text">
+        <label for="gender">Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">Nam
+        <input type="radio" id="female" name="gender" value="female">Nữ
         <span></span>
         <br></br>
-        <label for="birthday">Ngày sinh</label>
+        <label for="birthday">Ngày sinh:</label>
         <input name="birthday" type="date">
         <span></span>
         <br>
         <br>
-        <label for="email">Email</label>
+        <label for="email">Email:</label>
         <input name="email" type="email">
         <span></span>
         <br></br>
-        <label for="phonenumber">Điện thoại</label>
+        <label for="phonenumber">Điện thoại:</label>
         <input name="phonenumber" type="number">
         <br></br>
-        <label for="course">Khóa đăng ký</label>
-        <input name="course" type="text">
+        <label for="course">Khóa đăng ký:</label>
+        <input type="checkbox" id="male" name="gender" value="male">Tiếng Anh
+        <input type="checkbox" id="female" name="gender" value="female">Quản trị
+        <input type="checkbox" id="female" name="gender" value="female">CNTT
         <span></span>
         <br></br>
-        <label for="username">Tên sử dụng</label>
+        <label for="username">Tên sử dụng:</label>
         <input name="username" type="text">
         <br></br>
         <span></span>
-        <label for="password">Mật khẩu</label>
+        <label for="password">Mật khẩu:</label>
         <input name="password" type="password">
         <span></span>
         <br></br>
-        <label for="repassword">Gõ lại Mật khẩu</label>
+        <label for="repassword">Gõ lại Mật khẩu:</label>
         <input name="repassword" type="password">
         <span></span>
         <br></br>
         <span></span>
-        <label for="note">Ghi chú</label>
-        <input name="note" type="text">
+        <label for="note">Ghi chú:</label>
+        <textarea name="note" id="" cols="30" rows="5"></textarea>
         <span></span>
         <br></br>
         <button type="submit">Chấp nhận</button>
         <button type="">Bỏ qua</button>
     </form>
-
+    <script type="text/javascript" src="register.js">
+    </script>
 </body>
 
 </html>
