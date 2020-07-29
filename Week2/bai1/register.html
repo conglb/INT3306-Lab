@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <form action="">
         <label for="fullname">Họ và tên:</label>
-        <input name="fullname" type="text" autofocus>
+        <input name="fullname" type="text" onkeyup="enterEvent(event)" autofocus>
         <span></span>
         <br></br>
         <label for="address">Địa chỉ:</label>
@@ -24,7 +24,7 @@
         <span></span>
         <br></br>
         <label for="birthday">Ngày sinh:</label>
-        <input name="birthday" type="date">
+        <input id="birthday" name="birthday" type="date">
         <span></span>
         <br>
         <br>
@@ -53,7 +53,6 @@
         <input name="repassword" type="password">
         <span></span>
         <br></br>
-        <span></span>
         <label for="note">Ghi chú:</label>
         <textarea name="note" id="" cols="30" rows="5"></textarea>
         <span></span>

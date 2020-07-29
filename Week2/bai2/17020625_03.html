@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening and Closing a New Window</title>
+</head>
+<body>
+    <img src="google.jpg" alt="beautiful picture" width="140" height="93" onclick="OpenNewWindow()">
+    <form>
+        <button onclick="CloseNewWindow()">Close</button>
+    </form>
+
+    <script>
+       function OpenNewWindow() {
+            newWindow = window.open("http://www.google.com")
+       }
+       function CloseNewWindow() {
+            newWindow.close()
+       }
+
+    </script>
+</body>
+</html>
